@@ -1,0 +1,38 @@
+<text>我的圈子</text>
+<view class="addcircle" bindtap="circleadd">
+      <text>+</text>
+      <view>新建圈子</view> 
+</view>
+<van-tabs active="a">
+  <van-tab title="推荐圈子" name="a">
+    <view  class="item" wx:for="{{obj}}" wx:key="index"bindtap="jump"  data-index="{{index}}" >
+       <view class="img">
+          <image src="{{item.imgUrl}}" />
+       </view>
+       <view class="content">
+         <rich-text nodes="{{item.name}}"></rich-text>
+         <view class="data">
+         <text>18人参与</text>
+         <text>11次打卡</text>
+        </view>
+        <van-icon name="arrow" class="jj" />
+      </view>
+    </view>
+  </van-tab>
+  <van-tab title="所有圈子" name="b" >
+    <view  class="item" wx:for="{{obj}}" wx:key="index">
+       <view class="img">
+          <image src="{{item.imgUrl}}"/>
+       </view>
+       <view class="content">
+        <rich-text nodes="{{item.name}}"></rich-text>
+         <view class="data">
+         <text>18人参与</text>
+         <text>11次打卡</text>
+        </view>
+        <van-icon name="arrow" class="jj" />
+      </view>
+    </view>
+  </van-tab>
+
+</van-tabs>

@@ -1,0 +1,37 @@
+
+<view class="add">
+<view class="head">
+<van-cell-group>
+  <van-field
+    required
+    clearable
+    label="圈子名称"
+    icon="question-o"
+    placeholder="请输入圈子名称"
+    bind:change="planText"
+  />
+</van-cell-group>
+</view>
+<view class="middle">
+  <text>圈子介绍</text>
+  <editor class="content" placeholder="输入内容" bindinput="savecontent" ></editor>
+</view>
+<view class="circle-title">
+        <view>上传圈子图片</view>
+        <van-uploader file-list="{{ fileList }}"  bind:after-read="circleImage" />
+      </view>
+
+      <view class="circle-title">
+        <view>请选择分类
+          <text class="circle-type" bindtap="showAction">选择分类</text>
+          </view>
+        <van-action-sheet
+       show="{{show}}"
+       actions="{{ actions }}"
+       bind:click-overlay="onClose"
+       bind:select="onSelect"
+      />
+</view>
+
+<view class="sure" bindtap="submit">创建</view>
+</view>

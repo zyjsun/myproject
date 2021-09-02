@@ -1,0 +1,25 @@
+.img{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.item{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  height: 150rpx;
+  border-radius: 20rpx;
+  box-shadow: 7px 7px 20px;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  font-size: 40rpx;
+  margin-left: 30rpx;
+}
+.item text{
+  color:grey;
+  font-size: 25rpx;
+  margin-left: 60rpx;
+}

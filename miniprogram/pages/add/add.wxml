@@ -1,0 +1,33 @@
+<van-button type="primary" size="large" class="add" color="green" 
+bind:click="add">+自定义计划</van-button>
+
+<text>推荐计划</text>
+
+<view class="item">
+        <image src="../../images/run.jpeg" class="img"/>
+        <view class="text">
+        跑步两小时
+        </view>
+        <text>100人参与了计划</text>
+</view>
+
+<view class="item">
+        <image src="../../images/book.jpeg" class="img"/>
+        <view class="text">
+        读书两小时
+        </view>
+        <text>24人参与了计划</text>
+</view>
+
+
+<view class="item">
+        <image src="../../images/bed.jpeg" class="img"/>
+        <view class="text">
+            7点早起
+        </view>
+        <text>2000人参与了计划</text>
+</view>
+
+
+
+

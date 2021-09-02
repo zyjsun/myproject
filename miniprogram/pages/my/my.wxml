@@ -1,0 +1,23 @@
+<view class="container">
+    
+    <view class="user-info-container">
+    <view class="info">
+    <view class="name" wx:if="{{userInfo}}">{{userInfo.nickName}}</view>
+    <button open-type="getUserInfo" bindgetuserinfo="onAuthorize" class="authorize" wx:else>授权登录</button>
+    </view>
+    <image  class="avatar" src="{{userInfo.avatarUrl}}"  mode="aspectFill"/>
+    </view>
+</view>
+
+
+<view class="my">
+<view><van-icon name="chat-o" />
+我的消息
+</view>
+<view><van-icon name="star-o" />
+我的收藏
+</view>
+<view><van-icon name="like-o" />
+我的点赞
+</view>
+</view>

@@ -1,0 +1,23 @@
+<view class="all">
+      <!-- 日历 -->
+      <van-cell   value="{{ date }}" bind:click="onDisplay" />
+<van-calendar show="{{ show }}" 
+show-title
+close-on-click-overlay
+
+confirm-text="打卡" 
+bind:close="onClose" bind:confirm="onConfirm" />
+<!-- show-confirm="{{ false }}" -->
+ <!-- 打卡 -->
+<view class="title">欢迎来到{{name}}圈</view>
+<view class="feel">
+ <text>  圈子每日打卡任务</text>   
+            
+ <rich-text nodes="{{context}}"></rich-text>
+</view>
+
+<view class="dk" bindtap="onDisplay">
+   圈子打卡
+</view>
+
+</view>

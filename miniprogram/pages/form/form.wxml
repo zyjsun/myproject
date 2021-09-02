@@ -1,0 +1,39 @@
+<view class="form">
+    <image src="../../images/app.jpeg" class="img"/>
+    <van-field
+   
+    placeholder="请输入计划名称"
+    border="{{ true }}"
+    bind:change="plan"
+    label="计划"
+  />
+  <text>打卡时间</text>
+
+<view class="date">
+  <text>重复</text> 
+   <van-checkbox-group value="{{ result }}" bind:change="onChange">
+   <van-checkbox name="周一" >周一</van-checkbox>
+   <van-checkbox name="周二" >周二</van-checkbox>
+   <van-checkbox name="周三">周三</van-checkbox>
+   <van-checkbox name="周四">周四</van-checkbox>
+   <van-checkbox name="周五">周五</van-checkbox>
+   <van-checkbox name="周六">周六</van-checkbox>
+   <van-checkbox name="周日">周日</van-checkbox>
+</van-checkbox-group>
+<text>内容</text>
+<van-cell-group>
+  <van-field
+    value="{{ value }}"
+    label="计划内容"
+    placeholder="请输入计划内容"
+    border="{{ true }}"
+    bind:change="planText"
+    type="textarea"
+    autosize
+    required
+  />
+</van-cell-group>
+</view>
+</view>
+
+<view class="sure" bindtap="submit">确定</view>

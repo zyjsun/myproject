@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/circle/circle",
+    "pages/circleadd/circleadd",
+    "pages/plan/plan",   
+    "pages/daka/daka",
+    "pages/content/content",
+    "pages/rili/rili",
+    "pages/form/form",
+    "pages/add/add",
+    "pages/my/my",
+    "pages/guide/guide",
+    "pages/home/home",
+    "pages/circleContent/circleContent"
+
+  ],
+  "window": {
+    "backgroundColor":"#ececec",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#33FF33",
+    "navigationBarTitleText": "吾能自律",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "backgroundColor": "#f5f5f5",
+      "pagePath": "pages/plan/plan",
+      "text": "计划",
+      "iconPath": "./images/plan.png",
+      "selectedIconPath": "./images/plan2.png"
+    },{
+      "pagePath": "pages/circle/circle",
+      "text": "圈子",
+      "iconPath": "./images/circle2.png",
+      "selectedIconPath": "./images/circle.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "./images/myservice.png",
+      "selectedIconPath": "./images/myservice2.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

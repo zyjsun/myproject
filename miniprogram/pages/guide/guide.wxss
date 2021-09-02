@@ -1,0 +1,21 @@
+.body{
+  width: 100vw; 
+  height: 100vh;
+  position: relative;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55rpx;
+  margin-top: 30rpx;
+  color:rgba(16, 16, 16, 100);
+}
+
+image{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+ 
+}

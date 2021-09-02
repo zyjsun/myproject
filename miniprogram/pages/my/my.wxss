@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  height: 250rpx;
+  border: 5px;
+  background: linear-gradient(to bottom,green,greenyellow);
+  overflow: hidden;
+}
+.user-info-container{
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin: 0 40px;
+  margin-top: 32rpx;
+}
+.authorize{
+   border-radius: 23rpx;
+   color: burlywood;
+   background-color: khaki;
+}
+.user-info-container .avatar{
+  position: absolute;
+  right: 50rpx;
+  width: 200rpx;
+  height: 200rpx;
+  border: 5rpx solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 6rpx 16rpx rgba(25,118,210, 0.1);
+}
+.user-info-container .info{
+  position: absolute;
+  top: 100rpx;
+  left: 270rpx;
+  color: #000;
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.info .name{
+  color: burlywood;
+  font-weight: bold;
+  font-size: inherit;
+}
+
+.my{
+  width: 80%;
+  height: 500rpx;
+  margin: 40rpx auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 38rpx;
+  background-color: #fff;
+}
+.my view{
+  margin-top: 35rpx;
+  font-size: 40rpx;
+  color: grey;
+}
+

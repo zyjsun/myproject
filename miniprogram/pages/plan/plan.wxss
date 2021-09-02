@@ -1,0 +1,72 @@
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.addplan{
+  width: 80%;
+  margin: 40rpx auto;
+  height: 80rpx;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 38rpx;
+  box-shadow: 7px 7px 20px #ececec;
+  background: linear-gradient(45deg, #ace,green);
+  color:burlywood;
+  box-sizing: border-box;
+}
+.img{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  padding: 25rpx;
+}
+.item{
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  height: 150rpx;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  box-shadow: 7px 7px 20px green;
+}
+.text{
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  font-size: 40rpx;
+  flex-direction: column;
+}
+.text .t{
+  margin-top: 15rpx;
+  font-size: 20rpx;
+  color: grey;
+}
+.right{
+  position: absolute;
+   right: 0;
+   top:30rpx;
+   width: 200rpx;
+  height: 150rpx;
+}
+.day{
+  display: flex;
+  justify-content: center;
+  font-size: 45rpx;
+  color:greenyellow;
+}
+.right text{
+  display: block;
+  color:grey;
+  font-size: 25rpx;
+  text-align: center;
+}
+
+.tips{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: 20rpx;
+}
